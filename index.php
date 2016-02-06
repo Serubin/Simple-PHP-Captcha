@@ -11,7 +11,7 @@ $code1=rand(1,10);
 $code2=rand(1,10);
 
 // Code storage
-$_SESSION["code"]=$code1+$code2;
+$_SESSION["captcha"]=$code1+$code2;
 
 // Random color
 $r = rand(64, 255);
